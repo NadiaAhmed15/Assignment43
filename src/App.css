@@ -1,0 +1,95 @@
+/* Apply a background image to the entire body */
+body {
+  background-image: url('Pretty sky.jpg');
+  background-size: 100%; 
+  background-position: center;
+  background-attachment: fixed; 
+  background-repeat: no-repeat; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white; 
+  text-align: center;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center the container */
+.container {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  z-index: 2;
+}
+
+/* Title styling */
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input container styling */
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+}
+
+/* Button styling (changed to blue) */
+.btn {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Center the weather info */
+.weather-info {
+  margin-top: 20px;
+}
+
+/* Weather card styling */
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333; /* Text color for card */
+}
+
+.alert {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.weather-icon {
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
